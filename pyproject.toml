@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "financesphere-certificate-renewal-based-of-valid-invoices-"
+version = "0.1.0"
+description = ""
+authors = ["Shadow757 <hprata6@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^24.8.0"
+django = "^4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
